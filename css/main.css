@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+
+body {
+	background-color: #2d2d2d;
+	font-family: "Oswald";
+	font-weight: 300; 
+	font-size: 16px;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scroolling: touch;
+
+	margin-top: 79px;
+	word-spacing: 2px;
+}
+
+.oswald{
+	font-family: "Oswald";
+	font-weight: 300; 
+	font-size: 16px;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scroolling: touch;
+}
+
+.sbText{
+		color: #555;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    background-color: #303032;
+    padding-left: 10px;
+    max-width: 11%;
+    min-height: 11%;
+}
+
+.Saltator{
+	color:red; 
+	text-shadow: red 0 0 10px; 
+	font-family: "English Rose";
+}
+
+.SJB {
+	margin-top: 180px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Arial";
+	font-weight: 300;
+	color: #999;
+}
+
+p {
+	color: #bdbdbd;
+}
+
+.neon{
+	font-family: "English Rose";
+	color:black;
+	text-shadow: red 0 0 10px;
+}
+
+#grids { 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  }
+#grids > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-alight: center;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+.overfl{
+	overflow: hidden;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size:14px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+}
+
+.navbar-inverse {
+	background: #99000;
+	border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: red; 
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: red; 
+}
+
+.navbar-inverse .navbar-nav > .active > a:visited {
+	background-color: red; 
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: red; 
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	/*background: url(../img/backfon.jpeg) no-repeat center top;*/
+	margin-top: -10px;
+	padding-top:20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+color: white;
+font-size: 40px;
+letter-spacing: 2px
+text-transform: uppercase;
+}
+
+.w{
+	padding-top: 35px;
+}
+
+.w h4 {
+font-size: 25px;
+}
+
+#dg {
+	background: #2d2d2d;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+
+.wb h4 {
+	font-size: 35px;
+}
+
+#f {
+	background-color: #9900;
+	border-color: #000;
+	padding-top:0px;
+	padding: -10px;
+	min-height: 50px;
+	color:#FFFFFF;
+}
+}
+
+#f p {
+	color: #bdbdbd;
+}
+
+.footer {
+  background: #9900;
+  padding: 10px 0;
+}
+
+.item{
+	width: 12%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px 5px 0 0; /* 5px rounded corners */
+}
+
+.thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        }
+
+@font-face { 
+font-family: "English Rose"; 
+src: url("../fonts/English Rose.ttf"); 
+} 
+@font-face { 
+font-family: "Base02Cyrillic2"; 
+src: url("../fonts/Base02Cyrillic2.ttf"); 
+} 
+@font-face { 
+font-family: "Oswald"; 
+src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf"); 
+} 
